@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Adaptive Testing</title>
+</head>
+<body>
+  <h2>{{ question_text }}</h2>
+  <form method="post">
+    <button type="submit" name="response" value="1">Correct</button>
+    <button type="submit" name="response" value="0">Incorrect</button>
+  </form>
+  <p>Current Ability Estimate: {{ theta_estimate }}</p>
+</body>
+</html>
